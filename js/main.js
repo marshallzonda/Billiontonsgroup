@@ -45,4 +45,11 @@ $(document).ready(function(){
 		   $('.header__burger,.header__menu').removeClass('active');
 		   $('body').removeClass('lock');
 		});
+		$('.class__us_link').click(function(e){
+			$('.services__form,.form__h2').addClass('active');
+		});
+		$('.button').click(function(e){
+			$('.form__p,form').addClass('unactive');
+			$('.services__form_done').addClass('active');
+		});
 });
